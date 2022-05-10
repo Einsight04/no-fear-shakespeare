@@ -1,0 +1,652 @@
+
+        <div>
+            <div class="nofear-comparison-default ">
+                <script>
+                    let noFearComparisonData = document.querySelector(".nofear-comparison-default");
+                    if (!((window.location.href.indexOf("act-1-scene-1") > -1) || (window.location.href.indexOf("act-1-prologue")  > -1 ))) {
+                        if (noFearComparisonData) {
+                            if (!isSubscribedUser) {
+                                noFearComparisonData.classList.add('modernTxtHidden');
+                                noFearComparisonData.classList.remove('nofear-modernText-styling');
+                                
+                            } else {
+                                noFearComparisonData.classList.remove('modernTxtHidden');
+                                noFearComparisonData.classList.add('nofear-modernText-styling');
+                            }
+                        }  
+                    }
+                    if ((window.location.href.indexOf("act-1-scene-1") > -1) || (window.location.href.indexOf("act-1-prologue")  > -1 ))  {
+                        if (noFearComparisonData) {
+                            if (noFearComparisonData.classList.contains('modernTxtHidden')) {
+                                noFearComparisonData.classList.remove('modernTxtHidden');
+                            }
+                            if (noFearComparisonData.classList.contains('nofear-modernText-styling')) {
+                                noFearComparisonData.classList.remove('nofear-modernText-styling');
+                            } 
+                            noFearComparisonData.classList.add('nofear-modernText-styling'); 
+                        }
+                    }
+                </script>
+                <div id="noFear-comparison">
+<table border="0" cellpadding="0" class="noFear noFear--hasNumbers">
+	<tbody>
+		<tr>
+			<td class="noFear__cell noFear__cell--original noFear__cell--title">
+			<h3 class="noFear__title">Original Text</h3>
+			</td>
+			<td class="noFear__cell noFear__cell--modern noFear__cell--title">
+			<h3 class="noFear__title">Modern Text</h3>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Enter <span class="noFear__speaker">LAERTES </span> and <span class="noFear__speaker">OPHELIA </span>, his sister</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">LAERTES </span> and his sister <span class="noFear__speaker">OPHELIA </span> enter.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">My necessaries are embarked. Farewell.</div>
+
+			<div class="noFear__line noFear__line--original">And, sister, as the winds give benefit</div>
+
+			<div class="noFear__line noFear__line--original">And convey is assistant, do not sleep,</div>
+
+			<div class="noFear__line noFear__line--original">But let me hear from you.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">My belongings are on the ship already. Good-bye. And, my dear sister, as long as the winds are blowing and ships are sailing, let me hear from you—write.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">Do you doubt that?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">Do you doubt I’ll write?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">5</span> For Hamlet and the trifling of his favor,</div>
+
+			<div class="noFear__line noFear__line--original">Hold it a fashion and a toy in blood,</div>
+
+			<div class="noFear__line noFear__line--original">A violet in the youth of primy nature,</div>
+
+			<div class="noFear__line noFear__line--original">Forward, not permanent, sweet, not lasting,</div>
+
+			<div class="noFear__line noFear__line--original">The perfume and suppliance of a minute.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">10</span> No more.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">As for Hamlet and his attentions to you, just consider it a big flirtation, the temporary phase of a hot-blooded youth. It won’t last. It’s sweet, but his affection will fade after a minute. Not a second more.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">No more but so?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">No more than a minute?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">Think it no more.</div>
+
+			<div class="noFear__line noFear__line--original">For nature, crescent, does not grow alone</div>
+
+			<div class="noFear__line noFear__line--original">In thews and bulk, but, as this temple waxes,</div>
+
+			<div class="noFear__line noFear__line--original">The inward service of the mind and soul</div>
+
+			<div class="noFear__line noFear__line--original">Grows wide withal. Perhaps he loves you now,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">15</span> And now no soil nor cautel doth besmirch</div>
+
+			<div class="noFear__line noFear__line--original">The virtue of his will, but you must fear.</div>
+
+			<div class="noFear__line noFear__line--original">His greatness weighed, his will is not his own,</div>
+
+			<div class="noFear__line noFear__line--original">For he himself is subject to his birth.</div>
+
+			<div class="noFear__line noFear__line--original">He may not, as unvalued persons do,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">20</span> Carve for himself, for on his choice depends</div>
+
+			<div class="noFear__line noFear__line--original">The safety and health of this whole state.</div>
+
+			<div class="noFear__line noFear__line--original">And therefore must his choice be circumscribed</div>
+
+			<div class="noFear__line noFear__line--original">Unto the voice and yielding of that body</div>
+
+			<div class="noFear__line noFear__line--original">Whereof he is the head. Then if he says he loves you,</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">Try to think of it like that, anyway. When a youth grows into a man, he doesn’t just get bigger in his body—his responsibilities grow too. He may love you now, and may have only the best intentions, but you have to be on your guard. Remember that he belongs to the royal family, and his intentions don’t matter that much—he’s a slave to his family obligations. He can’t simply make personal choices for himself the way common people can, since the whole country depends on what he does. His choice has to agree with what the nation wants.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">25</span> It fits your wisdom so far to believe it</div>
+
+			<div class="noFear__line noFear__line--original">As he in his particular act and place</div>
+
+			<div class="noFear__line noFear__line--original">May give his saying deed, which is no further</div>
+
+			<div class="noFear__line noFear__line--original">Than the main voice of Denmark goes withal.</div>
+
+			<div class="noFear__line noFear__line--original">Then weigh what loss your honor may sustain</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">30</span> If with too credent ear you list his songs,</div>
+
+			<div class="noFear__line noFear__line--original">Or lose your heart, or your chaste treasure open</div>
+
+			<div class="noFear__line noFear__line--original">To his unmastered importunity.</div>
+
+			<div class="noFear__line noFear__line--original">Fear it, Ophelia. Fear it, my dear sister,</div>
+
+			<div class="noFear__line noFear__line--original">And keep you in the rear of your affection,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">35</span> Out of the shot and danger of desire.</div>
+
+			<div class="noFear__line noFear__line--original">The chariest maid is prodigal enough</div>
+
+			<div class="noFear__line noFear__line--original">If she unmask her beauty to the moon.</div>
+
+			<div class="noFear__line noFear__line--original">Virtue itself ’scapes not calumnious strokes.</div>
+
+			<div class="noFear__line noFear__line--original">The canker galls the infants of the spring</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">40</span> Too oft before their buttons be disclosed.</div>
+
+			<div class="noFear__line noFear__line--original">And in the morn and liquid dew of youth,</div>
+
+			<div class="noFear__line noFear__line--original">Contagious blastments are most imminent.</div>
+
+			<div class="noFear__line noFear__line--original">Be wary, then. Best safety lies in fear.</div>
+
+			<div class="noFear__line noFear__line--original">Youth to itself rebels, though none else near.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">So if he says he loves you, you should be wise enough to see that his words only mean as much as the state of Denmark allows them to mean. Then think about how shameful it would be for you to give in to his seductive talk and surrender your treasure chest to his greedy hands. Watch out, Ophelia. Just keep your love under control, and don’t let yourself become a target of his lust. Simply exposing your beauty to the moon at night is risky enough—you don’t have to expose yourself to him. Even good girls sometimes get a bad reputation. Worms ruin flowers before they blossom. Baby blooms are most susceptible to disease. So be careful. Fear will keep you safe. Young people often lose their self-control even without any help from others.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">45</span> I shall the effect of this good lesson keep</div>
+
+			<div class="noFear__line noFear__line--original">As watchman to my heart. But, good my brother,</div>
+
+			<div class="noFear__line noFear__line--original">Do not, as some ungracious pastors do,</div>
+
+			<div class="noFear__line noFear__line--original">Show me the steep and thorny way to heaven</div>
+
+			<div class="noFear__line noFear__line--original">Whiles, like a puffed and reckless libertine,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">50</span> Himself the primrose path of dalliance treads</div>
+
+			<div class="noFear__line noFear__line--original">And recks not his own rede.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">I’ll keep your words of wisdom close to my heart. But, my dear brother, don’t be like a bad priest who fails to practice what he preaches, showing me the steep and narrow way to heaven while you frolic on the primrose path of sin.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">O, fear me not.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">Don’t worry, I won’t.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Enter <span class="noFear__speaker">POLONIUS </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">POLONIUS </span> enters.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original">I stay too long. But here my father comes.</div>
+
+			<div class="noFear__line noFear__line--original">A double blessing is a double grace.</div>
+
+			<div class="noFear__line noFear__line--original">Occasion smiles upon a second leave.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">I’ve been here too long. And here comes father. What good luck, to have him bless my leaving not once but twice.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">55</span> Yet here, Laertes? Aboard, aboard, for shame!</div>
+
+			<div class="noFear__line noFear__line--original">The wind sits in the shoulder of your sail</div>
+
+			<div class="noFear__line noFear__line--original">And you are stayed for. There, my blessing with thee.</div>
+
+			<div class="noFear__line noFear__line--original">And these few precepts in thy memory</div>
+
+			<div class="noFear__line noFear__line--original">Look thou character. Give thy thoughts no tongue,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">60</span> Nor any unproportioned thought his act.</div>
+
+			<div class="noFear__line noFear__line--original">Be thou familiar but by no means vulgar.</div>
+
+			<div class="noFear__line noFear__line--original">Those friends thou hast, and their adoption tried,</div>
+
+			<div class="noFear__line noFear__line--original">Grapple them unto thy soul with hoops of steel,</div>
+
+			<div class="noFear__line noFear__line--original">But do not dull thy palm with entertainment</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">65</span> Of each new-hatched, unfledged comrade. Beware</div>
+
+			<div class="noFear__line noFear__line--original">Of entrance to a quarrel, but being in,</div>
+
+			<div class="noFear__line noFear__line--original">Bear ’t that th' opposèd may beware of thee.</div>
+
+			<div class="noFear__line noFear__line--original">Give every man thy ear but few thy voice.</div>
+
+			<div class="noFear__line noFear__line--original">Take each man’s censure but reserve thy judgment.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">70</span> Costly thy habit as thy purse can buy,</div>
+
+			<div class="noFear__line noFear__line--original">But not expressed in fancy—rich, not gaudy,</div>
+
+			<div class="noFear__line noFear__line--original">For the apparel oft proclaims the man,</div>
+
+			<div class="noFear__line noFear__line--original">And they in France of the best rank and station</div>
+
+			<div class="noFear__line noFear__line--original">Are of a most select and generous chief in that.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">75</span> Neither a borrower nor a lender be,</div>
+
+			<div class="noFear__line noFear__line--original">For loan oft loses both itself and friend,</div>
+
+			<div class="noFear__line noFear__line--original">And borrowing dulls the edge of husbandry.</div>
+
+			<div class="noFear__line noFear__line--original">This above all: to thine own self be true,</div>
+
+			<div class="noFear__line noFear__line--original">And it must follow, as the night the day,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">80</span> Thou canst not then be false to any man.</div>
+
+			<div class="noFear__line noFear__line--original">Farewell. My blessing season this in thee.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">You’re still here? Shame on you—get on board! The wind is filling your ship’s sail, and they’re waiting for you. Here, I give you my blessing again. And just try to remember a few rules of life. Don’t say what you’re thinking, and don’t be too quick to act on what you think. Be friendly to people but don’t overdo it. Once you’ve tested out your friends and found them trustworthy, hold onto them. But don’t waste your time shaking hands with every new guy you meet. Don’t be quick to pick a fight, but once you’re in one, hold your own. Listen to many people, but talk to few. Hear everyone’s opinion, but reserve your judgment. Spend all you can afford on clothes, but make sure they’re quality, not flashy, since clothes make the man—which is doubly true in France. Don’t borrow money and don’t lend it, since when you lend to a friend, you often lose the friendship as well as the money, and borrowing turns a person into a spendthrift. And, above all, be true to yourself. Then you won’t be false to anybody else. Good-bye, son. I hope my blessing will help you absorb what I’ve said.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">Most humbly do I take my leave, my lord.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">I humbly say good-bye to you, father.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original">The time invites you. Go. Your servants tend.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Now go, the time is right. Your servants are waiting.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">Farewell, Ophelia, and remember well</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">85</span> What I have said to you.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">Good-bye, Ophelia. Remember what I’ve told you.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">'Tis in my memory locked,</div>
+
+			<div class="noFear__line noFear__line--original">And you yourself shall keep the key of it.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">It’s locked away in my memory, and you’ve got the key.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">Farewell.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">Good-bye.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Exit <span class="noFear__speaker">LAERTES </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">LAERTES </span> exits.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original">What is ’t, Ophelia, he hath said to you?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">What did he tell you, Ophelia?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">So please you, something touching the Lord Hamlet.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">Something about Hamlet.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">90</span> Marry, well bethought.</div>
+
+			<div class="noFear__line noFear__line--original">'Tis told me he hath very oft of late</div>
+
+			<div class="noFear__line noFear__line--original">Given private time to you, and you yourself</div>
+
+			<div class="noFear__line noFear__line--original">Have of your audience been most free and bounteous.</div>
+
+			<div class="noFear__line noFear__line--original">If it be so as so ’tis put on me—</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">95</span> And that in way of caution—I must tell you,</div>
+
+			<div class="noFear__line noFear__line--original">You do not understand yourself so clearly</div>
+
+			<div class="noFear__line noFear__line--original">As it behooves my daughter and your honor.</div>
+
+			<div class="noFear__line noFear__line--original">What is between you? Give me up the truth.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">A good thing he did, by God. I’ve heard Hamlet’s been spending a lot of time alone with you recently, and you’ve made yourself quite available to him. If things are the way people tell me they are—and they’re only telling me this to warn me—then I have to say, you’re not conducting yourself with the self-restraint a daughter of mine should show. What’s going on between you two? Tell me the truth.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">He hath, my lord, of late made many tenders</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">100</span> Of his affection to me.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">He’s offered me a lot of affection lately.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original">Affection! Pooh, you speak like a green girl,</div>
+
+			<div class="noFear__line noFear__line--original">Unsifted in such perilous circumstance.</div>
+
+			<div class="noFear__line noFear__line--original">Do you believe his “tenders,” as you call them?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">“Affection!” That’s nothing! You’re talking like some innocent girl who doesn’t understand the ways of the world. Do you believe his “offers,” as you call them?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">I do not know, my lord, what I should think.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">I don’t know what to believe, father.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">105</span> Marry, I’ll teach you. Think yourself a baby</div>
+
+			<div class="noFear__line noFear__line--original">That you have ta'en these tenders for true pay,</div>
+
+			<div class="noFear__line noFear__line--original">Which are not sterling. Tender yourself more dearly,</div>
+
+			<div class="noFear__line noFear__line--original">Or—not to crack the wind of the poor phrase,</div>
+
+			<div class="noFear__line noFear__line--original">Running it thus—you’ll tender me a fool.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Then I’ll tell you. Believe that you are a foolish little baby for believing these “offers” are something real. Offer yourself more respect, or—not to beat this word to death—you’ll offer me the chance to be a laughing-stock.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">110</span> My lord, he hath importuned me with love</div>
+
+			<div class="noFear__line noFear__line--original">In honorable fashion.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">Father, he’s always talked about love in an honorable fashion—</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original">Ay, “fashion” you may call it. Go to, go to.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Yes, “fashion” is just the word—a passing whim. Go on.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">And hath given countenance to his speech, my lord,</div>
+
+			<div class="noFear__line noFear__line--original">With almost all the holy vows of heaven.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">And he’s made the holiest vows to me, to back up what he says.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">115</span> Ay, springes to catch woodcocks. I do know,</div>
+
+			<div class="noFear__line noFear__line--original">When the blood burns, how prodigal the soul</div>
+
+			<div class="noFear__line noFear__line--original">Lends the tongue vows. These blazes, daughter,</div>
+
+			<div class="noFear__line noFear__line--original">Giving more light than heat, extinct in both</div>
+
+			<div class="noFear__line noFear__line--original">Even in their promise as it is a-making,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">120</span> You must not take for fire. From this time</div>
+
+			<div class="noFear__line noFear__line--original">Be somewhat scanter of your maiden presence.</div>
+
+			<div class="noFear__line noFear__line--original">Set your entreatments at a higher rate</div>
+
+			<div class="noFear__line noFear__line--original">Than a command to parley. For Lord Hamlet,</div>
+
+			<div class="noFear__line noFear__line--original">Believe so much in him that he is young,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">125</span> And with a larger tether may he walk</div>
+
+			<div class="noFear__line noFear__line--original">Than may be given you. In few, Ophelia,</div>
+
+			<div class="noFear__line noFear__line--original">Do not believe his vows, for they are brokers</div>
+
+			<div class="noFear__line noFear__line--original">Not of that dye which their investments show,</div>
+
+			<div class="noFear__line noFear__line--original">But mere implorators of unholy suits,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">130</span> Breathing like sanctified and pious bawds,</div>
+
+			<div class="noFear__line noFear__line--original">The better to beguile. This is for all:</div>
+
+			<div class="noFear__line noFear__line--original">I would not, in plain terms, from this time forth,</div>
+
+			<div class="noFear__line noFear__line--original">Have you so slander any moment leisure,</div>
+
+			<div class="noFear__line noFear__line--original">As to give words or talk with the Lord Hamlet.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">135</span> Look to ’t, I charge you. Come your ways.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">These vows are just traps for stupid birds. I know when a man is on fire, he’ll swear anything. But when a heart’s on fire, it gives out more light than heat, and the fire will be out even before he’s done making his promises. Don’t mistake that for true love. From now on, spend a little less time with him and talk to him less. Make yourself a precious commodity. Remember that Hamlet is young and has a lot more freedom to fool around than you do. In short, Ophelia, don’t believe his love vows, since they’re like flashy pimps who wear nice clothes to lead a woman into filthy acts. To put it plainly, don’t waste your time with Hamlet. Do as I say.</div>
+
+			<div class="noFear__line noFear__line--modern">Now come along.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--original">I shall obey, my lord.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">OPHELIA</p>
+
+			<div class="noFear__line noFear__line--modern">I’ll do as you say, father.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Exeunt</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern">They exit.</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+            </div>
+        </div>
+        <!-- for mobile view -->
+        <div class="noFear-comparison-responsive ">
+            <script>
+                let noFearComparisonMobileData = document.querySelector(".noFear-comparison-responsive");
+                if (!((window.location.href.indexOf("act-1-scene-1") > -1) || (window.location.href.indexOf("act-1-prologue")  > -1 ))) {
+                    if (noFearComparisonMobileData) {
+                        if (!(isSubscribedUser)) {
+                            noFearComparisonMobileData.classList.add('modernTxtHiddenTab');
+                        } else {
+                            noFearComparisonMobileData.classList.remove('modernTxtHiddenTab');
+                        }
+                    }
+                }
+            </script>
+            <div class="nofear__tabbed" data-step="sampleData" data-tabset="nofear-tab-section">
+                <nav class="nofear__tabbed__tabs" role="tablist" data-tablist="nofear-tab-section">
+                    <a class="nofear__tabbed__tabs__tab nofear__tabbed__tabs__original__tab active-tab" role="tab" id="original__tab" href="#tabSection1" aria-selected="true" data-tab="nofear-tab-section">ORIGINAL TEXT</a>
+                    <a class="nofear__tabbed__tabs__tab nofear__tabbed__tabs__modern__tab" role="tab" id="modern__tab" href="#tabSection2 " tabindex="-1" data-tab="nofear-tab-section">MODERN TEXT</a>
+                </nav>
+                <section class="nofear__tabbed__content nofear__tabbed__original__content" role="tabpanel" id="tabSection1" aria-labelledby="tab1" tabindex="-1" data-tabpanel="nofear-tab-section">
+                    <span class="nofear-original-text"></span>
+                </section>
+                <section class="nofear__tabbed__content nofear__tabbed__modern__content" role="tabpanel" id="tabSection2" aria-labelledby="tab2" tabindex="-1" data-tabpanel="nofear-tab-section" hidden="true">
+                    <span class="nofear-modern-text"></span>
+                </section>
+            </div>
+        </div>  
+    

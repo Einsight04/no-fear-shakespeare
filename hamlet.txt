@@ -1,0 +1,1466 @@
+
+        <div>
+            <div class="nofear-comparison-default ">
+                <script>
+                    let noFearComparisonData = document.querySelector(".nofear-comparison-default");
+                    if (!((window.location.href.indexOf("act-1-scene-1") > -1) || (window.location.href.indexOf("act-1-prologue")  > -1 ))) {
+                        if (noFearComparisonData) {
+                            if (!isSubscribedUser) {
+                                noFearComparisonData.classList.add('modernTxtHidden');
+                                noFearComparisonData.classList.remove('nofear-modernText-styling');
+                                
+                            } else {
+                                noFearComparisonData.classList.remove('modernTxtHidden');
+                                noFearComparisonData.classList.add('nofear-modernText-styling');
+                            }
+                        }  
+                    }
+                    if ((window.location.href.indexOf("act-1-scene-1") > -1) || (window.location.href.indexOf("act-1-prologue")  > -1 ))  {
+                        if (noFearComparisonData) {
+                            if (noFearComparisonData.classList.contains('modernTxtHidden')) {
+                                noFearComparisonData.classList.remove('modernTxtHidden');
+                            }
+                            if (noFearComparisonData.classList.contains('nofear-modernText-styling')) {
+                                noFearComparisonData.classList.remove('nofear-modernText-styling');
+                            } 
+                            noFearComparisonData.classList.add('nofear-modernText-styling'); 
+                        }
+                    }
+                </script>
+                <div id="noFear-comparison">
+<table border="0" cellpadding="0" class="noFear noFear--hasNumbers">
+	<tbody>
+		<tr>
+			<td class="noFear__cell noFear__cell--original noFear__cell--title">
+			<h3 class="noFear__title">Original Text</h3>
+			</td>
+			<td class="noFear__cell noFear__cell--modern noFear__cell--title">
+			<h3 class="noFear__title">Modern Text</h3>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Enter <span class="noFear__speaker">CLAUDIUS </span>, king of Denmark; <span class="noFear__speaker">GERTRUDE </span> the queen; <span class="noFear__speaker">HAMLET </span>; <span class="noFear__speaker">POLONIUS </span>; his son <span class="noFear__speaker">LAERTES </span>; and his daughter <span class="noFear__speaker">OPHELIA </span>; <span class="noFear__speaker">LORDS </span> attendant</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">CLAUDIUS </span>, the king of Denmark, enters, along with <span class="noFear__speaker">GERTRUDE </span> the queen, <span class="noFear__speaker">HAMLET </span>, <span class="noFear__speaker">POLONIUS </span>, <span class="noFear__speaker">POLONIUS </span> ’s son <span class="noFear__speaker">LAERTES </span> and daughter <span class="noFear__speaker">OPHELIA </span>, and <span class="noFear__speaker">LORDS </span> who wait on the king.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">Though yet of Hamlet our dear brother’s death</div>
+
+			<div class="noFear__line noFear__line--original">The memory be green, and that it us befitted</div>
+
+			<div class="noFear__line noFear__line--original">To bear our hearts in grief and our whole kingdom</div>
+
+			<div class="noFear__line noFear__line--original">To be contracted in one brow of woe,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">5</span> Yet so far hath discretion fought with nature</div>
+
+			<div class="noFear__line noFear__line--original">That we with wisest sorrow think on him</div>
+
+			<div class="noFear__line noFear__line--original">Together with remembrance of ourselves.</div>
+
+			<div class="noFear__line noFear__line--original">Therefore our sometime sister, now our queen,</div>
+
+			<div class="noFear__line noFear__line--original">Th' imperial jointress to this warlike state,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">10</span> Have we—as ’twere with a defeated joy,</div>
+
+			<div class="noFear__line noFear__line--original">With an auspicious and a dropping eye,</div>
+
+			<div class="noFear__line noFear__line--original">With mirth in funeral and with dirge in marriage,</div>
+
+			<div class="noFear__line noFear__line--original">In equal scale weighing delight and dole—</div>
+
+			<div class="noFear__line noFear__line--original">Taken to wife. Nor have we herein barred</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">15</span> Your better wisdoms, which have freely gone</div>
+
+			<div class="noFear__line noFear__line--original">With this affair along. For all, our thanks.</div>
+
+			<div class="noFear__line noFear__line--original">Now follows that you know. Young Fortinbras,</div>
+
+			<div class="noFear__line noFear__line--original">Holding a weak supposal of our worth</div>
+
+			<div class="noFear__line noFear__line--original">Or thinking by our late dear brother’s death</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">20</span> Our state to be disjoint and out of frame,</div>
+
+			<div class="noFear__line noFear__line--original">Colleaguèd with the dream of his advantage,</div>
+
+			<div class="noFear__line noFear__line--original">He hath not failed to pester us with message</div>
+
+			<div class="noFear__line noFear__line--original">Importing the surrender of those lands</div>
+
+			<div class="noFear__line noFear__line--original">Lost by his father, with all bonds of law,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">25</span> To our most valiant brother. So much for him.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Although I still have fresh memories of my brother the elder Hamlet’s death, and though it was proper to mourn him throughout our kingdom, life still goes on—I think it’s wise to mourn him while also thinking about my own well being. Therefore, I’ve married my former sister-in-law, the queen, with mixed feelings of happiness and sadness. I know that in marrying Gertrude I’m only doing what all of you have wisely advised all along—for which I thank you. Now, down to business. You all know what’s happening. Young Fortinbras, underestimating my strength or imagining that the death of the king has thrown my country into turmoil, dreams of getting the better of me, and never stops pestering me with demands that I surrender the territory his father lost to the elder Hamlet, my dead brother-in-law. So much for Fortinbras.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Enter <span class="noFear__speaker">VOLTEMAND </span> and <span class="noFear__speaker">CORNELIUS </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">VOLTEMAND </span> and <span class="noFear__speaker">CORNELIUS </span> enter.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original">Now for ourself and for this time of meeting</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">Now, here’s what needs to be done.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original">Thus much the business is: we have here writ</div>
+
+			<div class="noFear__line noFear__line--original">To Norway, uncle of young Fortinbras—</div>
+
+			<div class="noFear__line noFear__line--original">Who, impotent and bedrid, scarcely hears</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">30</span> Of this his nephew’s purpose—to suppress</div>
+
+			<div class="noFear__line noFear__line--original">His further gait herein, in that the levies,</div>
+
+			<div class="noFear__line noFear__line--original">The lists, and full proportions are all made</div>
+
+			<div class="noFear__line noFear__line--original">Out of his subject; and we here dispatch</div>
+
+			<div class="noFear__line noFear__line--original">You, good Cornelius, and you, Voltemand,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">35</span> For bearers of this greeting to old Norway,</div>
+
+			<div class="noFear__line noFear__line--original">Giving to you no further personal power</div>
+
+			<div class="noFear__line noFear__line--original">To business with the king more than the scope</div>
+
+			<div class="noFear__line noFear__line--original">Of these dilated articles allow. (<i>gives them a paper)</i></div>
+
+			<div class="noFear__line noFear__line--original">Farewell, and let your haste commend your duty.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">I’ve written to Fortinbras’s uncle, the present head of Norway, an old bedridden man who knows next to nothing about his nephew’s plans. I’ve told the uncle to stop those plans, which he has the power to do, since all the troops assembled by young Fortinbras are Norwegian, and thus under the uncle’s control. I’m giving the job of delivering this letter to you, good Cornelius, and you, Voltemand. Your business in Norway will be limited to this task. <i>(he gives them a paper)</i> Now good-bye. Show your loyalty by leaving quickly, rather than with elaborate speeches.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CORNELIUS, VOLTEMAND</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">40</span> In that and all things will we show our duty.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CORNELIUS, VOLTEMAND</p>
+
+			<div class="noFear__line noFear__line--modern">We’ll do our duty to you in that and everything else.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">We doubt it nothing. Heartily farewell.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">I have no doubt you will. Good-bye.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Exeunt <span class="noFear__speaker">VOLTEMAND </span> and <span class="noFear__speaker">CORNELIUS </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">CORNELIUS </span> and <span class="noFear__speaker">VOLTEMAND </span> exit.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original">And now, Laertes, what’s the news with you?</div>
+
+			<div class="noFear__line noFear__line--original">You told us of some suit. What is ’t, Laertes?</div>
+
+			<div class="noFear__line noFear__line--original">You cannot speak of reason to the Dane</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">45</span> And lose your voice. What wouldst thou beg, Laertes,</div>
+
+			<div class="noFear__line noFear__line--original">That shall not be my offer, not thy asking?</div>
+
+			<div class="noFear__line noFear__line--original">The head is not more native to the heart,</div>
+
+			<div class="noFear__line noFear__line--original">The hand more instrumental to the mouth,</div>
+
+			<div class="noFear__line noFear__line--original">Than is the throne of Denmark to thy father.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">50</span> What wouldst thou have, Laertes?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">And now, Laertes, what do you have to tell me? You have a favor you to ask of me. What is it, Laertes? You’ll never waste your words when talking to the king of Denmark. What could you ever ask for that I wouldn’t give you? Your father and the Danish throne are as close as the mind and the heart, or the hand and the mouth. What would you like, Laertes?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--original">My dread lord,</div>
+
+			<div class="noFear__line noFear__line--original">Your leave and favor to return to France,</div>
+
+			<div class="noFear__line noFear__line--original">From whence though willingly I came to Denmark</div>
+
+			<div class="noFear__line noFear__line--original">To show my duty in your coronation,</div>
+
+			<div class="noFear__line noFear__line--original">Yet now, I must confess, that duty done,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">55</span> My thoughts and wishes bend again toward France</div>
+
+			<div class="noFear__line noFear__line--original">And bow them to your gracious leave and pardon.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">LAERTES</p>
+
+			<div class="noFear__line noFear__line--modern">My lord, I want your permission to go back to France, which I left to come to Denmark for your coronation. I confess, my thoughts are on France, now that my duty is done. Please, let me go.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">Have you your father’s leave? What says Polonius?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Do you have your father’s permission? What does Polonius say?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--original">He hath, my lord, wrung from me my slow leave</div>
+
+			<div class="noFear__line noFear__line--original">By laborsome petition, and at last</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">60</span> Upon his will I sealed my hard consent.</div>
+
+			<div class="noFear__line noFear__line--original">I do beseech you, give him leave to go.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">POLONIUS</p>
+
+			<div class="noFear__line noFear__line--modern">My son has worn me down by asking me so many times. In the end I grudgingly consented. I beg you, let him go.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">Take thy fair hour, Laertes. Time be thine,</div>
+
+			<div class="noFear__line noFear__line--original">And thy best graces spend it at thy will.—</div>
+
+			<div class="noFear__line noFear__line--original">But now, my cousin Hamlet, and my son—</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">In that case, leave when you like, Laertes, and spend your time however you wish. I hereby grant your request, and hope you have a good time. And now, Hamlet, my nephew and my son—</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+			<line linenum="65"> <i>(aside)</i> A little more than kin and less than kind. </line></td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern"><i>(speaking so no one else can hear)</i> Too many family ties there for me.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">How is it that the clouds still hang on you?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Why are you still so gloomy, with a cloud hanging over you?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Not so, my lord. I am too much i' the sun.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">It’s not true, sir. Your son is out in the sun.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">GERTRUDE</p>
+
+			<div class="noFear__line noFear__line--original">Good Hamlet, cast thy nighted color off,</div>
+
+			<div class="noFear__line noFear__line--original">And let thine eye look like a friend on Denmark.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">70</span> Do not forever with thy vailèd lids</div>
+
+			<div class="noFear__line noFear__line--original">Seek for thy noble father in the dust.</div>
+
+			<div class="noFear__line noFear__line--original">Thou know’st ’tis common. All that lives must die,</div>
+
+			<div class="noFear__line noFear__line--original">Passing through nature to eternity.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">GERTRUDE</p>
+
+			<div class="noFear__line noFear__line--modern">My dear Hamlet, stop wearing these black clothes, and be friendly to the king. You can’t spend your whole life with your eyes to the ground remembering your noble father. It happens all the time, what lives must die eventually, passing to eternity.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Ay, madam, it is common.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Yes, mother, it happens all the time.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">GERTRUDE</p>
+
+			<div class="noFear__line noFear__line--original">If it be,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">75</span> Why seems it so particular with thee?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">GERTRUDE</p>
+
+			<div class="noFear__line noFear__line--modern">So why does it seem so particular to you?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">“Seems,” madam? Nay, it is. I know not “seems.”</div>
+
+			<div class="noFear__line noFear__line--original">'Tis not alone my inky cloak, good mother,</div>
+
+			<div class="noFear__line noFear__line--original">Nor customary suits of solemn black,</div>
+
+			<div class="noFear__line noFear__line--original">Nor windy suspiration of forced breath,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">80</span> No, nor the fruitful river in the eye,</div>
+
+			<div class="noFear__line noFear__line--original">Nor the dejected 'havior of the visage,</div>
+
+			<div class="noFear__line noFear__line--original">Together with all forms, moods, shapes of grief,</div>
+
+			<div class="noFear__line noFear__line--original">That can denote me truly. These indeed “seem,”</div>
+
+			<div class="noFear__line noFear__line--original">For they are actions that a man might play.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">85</span> But I have that within which passeth show,</div>
+
+			<div class="noFear__line noFear__line--original">These but the trappings and the suits of woe.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">“Seem,” mother? No, it <i>is</i>. I don’t know what you mean by “seem.” Neither my black clothes, my dear mother, nor my heavy sighs, nor my weeping, nor my downcast eyes, nor any other display of grief can show what I really feel. It’s true that all these things “seem” like grief, since a person could use them to fake grief if he wanted to. But I’ve got more real grief inside me that you could ever see on the surface. These clothes are just a hint of it.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">'Tis sweet and commendable in your nature, Hamlet,</div>
+
+			<div class="noFear__line noFear__line--original">To give these mourning duties to your father.</div>
+
+			<div class="noFear__line noFear__line--original">But you must know your father lost a father,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">90</span> That father lost, lost his, and the survivor bound</div>
+
+			<div class="noFear__line noFear__line--original">In filial obligation for some term</div>
+
+			<div class="noFear__line noFear__line--original">To do obsequious sorrow. But to persever</div>
+
+			<div class="noFear__line noFear__line--original">In obstinate condolement is a course</div>
+
+			<div class="noFear__line noFear__line--original">Of impious stubbornness. 'Tis unmanly grief.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">95</span> It shows a will most incorrect to heaven,</div>
+
+			<div class="noFear__line noFear__line--original">A heart unfortified, a mind impatient,</div>
+
+			<div class="noFear__line noFear__line--original">An understanding simple and unschooled.</div>
+
+			<div class="noFear__line noFear__line--original">For what we know must be and is as common</div>
+
+			<div class="noFear__line noFear__line--original">As any the most vulgar thing to sense,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">100</span> Why should we in our peevish opposition</div>
+
+			<div class="noFear__line noFear__line--original">Take it to heart? Fie! 'Tis a fault to heaven,</div>
+
+			<div class="noFear__line noFear__line--original">A fault against the dead, a fault to nature,</div>
+
+			<div class="noFear__line noFear__line--original">To reason most absurd, whose common theme</div>
+
+			<div class="noFear__line noFear__line--original">Is death of fathers, and who still hath cried,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">105</span> From the first corse till he that died today,</div>
+
+			<div class="noFear__line noFear__line--original">“This must be so.” We pray you, throw to earth</div>
+
+			<div class="noFear__line noFear__line--original">This unprevailing woe, and think of us</div>
+
+			<div class="noFear__line noFear__line--original">As of a father. For let the world take note,</div>
+
+			<div class="noFear__line noFear__line--original">You are the most immediate to our throne,</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">Hamlet, you are so sweet and such a good son to mourn your father like this. But you have to remember, that your father lost his father, who lost his father before him, and every time, each son has had to mourn his father for a certain period. But overdoing it is just stubborn. It’s not manly. It’s not what God wants, and it betrays a vulnerable heart and an ignorant and weak mind. Since we know that everyone must die sooner or later, why should we take it to heart? You’re committing a crime against heaven, against the dead, and against nature. And it’s irration-al, since the truth is that all fathers must die. Please give up this useless mourning of yours and start thinking of me as your new father.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">110</span> And with no less nobility of love</div>
+
+			<div class="noFear__line noFear__line--original">Than that which dearest father bears his son</div>
+
+			<div class="noFear__line noFear__line--original">Do I impart toward you. For your intent</div>
+
+			<div class="noFear__line noFear__line--original">In going back to school in Wittenberg,</div>
+
+			<div class="noFear__line noFear__line--original">It is most retrograde to our desire.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">115</span> And we beseech you, bend you to remain</div>
+
+			<div class="noFear__line noFear__line--original">Here in the cheer and comfort of our eye,</div>
+
+			<div class="noFear__line noFear__line--original">Our chiefest courtier, cousin, and our son.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">Because everyone knows that you are the man closest to this throne, and I love you just as much as any father loves his son. And your plans for going back to Wittenberg are not what I want. I’m asking you now to stay here in my company as the number-one member of my court, my nephew and now my son too.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">GERTRUDE</p>
+
+			<div class="noFear__line noFear__line--original">Let not thy mother lose her prayers, Hamlet.</div>
+
+			<div class="noFear__line noFear__line--original">I pray thee, stay with us. Go not to Wittenberg.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">GERTRUDE</p>
+
+			<div class="noFear__line noFear__line--modern">Please answer my prayers, Hamlet, and stay with us. Don’t go back to Wittenberg.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">120</span> I shall in all my best obey you, madam.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">I’ll obey you as well as I can, ma'am.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--original">Why, ’tis a loving and a fair reply.</div>
+
+			<div class="noFear__line noFear__line--original">Be as ourself in Denmark.—Madam, come.</div>
+
+			<div class="noFear__line noFear__line--original">This gentle and unforced accord of Hamlet</div>
+
+			<div class="noFear__line noFear__line--original">Sits smiling to my heart, in grace whereof</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">125</span> No jocund health that Denmark drinks today</div>
+
+			<div class="noFear__line noFear__line--original">But the great cannon to the clouds shall tell,</div>
+
+			<div class="noFear__line noFear__line--original">And the king’s rouse the heavens shall bruit again,</div>
+
+			<div class="noFear__line noFear__line--original">Respeaking earthly thunder. Come away.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">CLAUDIUS</p>
+
+			<div class="noFear__line noFear__line--modern">That’s the right answer—it shows your love. Stay in Denmark like us.—My dear wife, come. Hamlet’s agreeing to stay makes me happy, and every merry toast I’ll drink today will be heard as far as the clouds overhead. My drinking will be echoed in the heavens. Let’s go.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Flourish. Exeunt all but <span class="noFear__speaker">HAMLET </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern">Trumpets play. Everyone except <span class="noFear__speaker">HAMLET </span> exits.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Oh, that this too, too sullied flesh would melt,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">130</span> Thaw, and resolve itself into a dew,</div>
+
+			<div class="noFear__line noFear__line--original">Or that the Everlasting had not fixed</div>
+
+			<div class="noFear__line noFear__line--original">His canon 'gainst self-slaughter! O God, God!</div>
+
+			<div class="noFear__line noFear__line--original">How weary, stale, flat, and unprofitable</div>
+
+			<div class="noFear__line noFear__line--original">Seem to me all the uses of this world!</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">135</span> Fie on ’t, ah fie! 'Tis an unweeded garden</div>
+
+			<div class="noFear__line noFear__line--original">That grows to seed. Things rank and gross in nature</div>
+
+			<div class="noFear__line noFear__line--original">Possess it merely. That it should come to this.</div>
+
+			<div class="noFear__line noFear__line--original">But two months dead—nay, not so much, not two.</div>
+
+			<div class="noFear__line noFear__line--original">So excellent a king, that was to this</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">140</span> Hyperion to a satyr. So loving to my mother</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Ah, I wish my dirty flesh could melt away into a vapor, or that God had not made a law against suicide. Oh God, God! How tired, stale, and pointless life is to me. Damn it! It’s like a garden that no one’s taking care of, and that’s growing wild. Only nasty weeds grow in it now. I can’t believe it’s come to this. My father’s only been dead for two months—no, not even two. Such an excellent king, as superior to my uncle as a god is to a beast, and so loving toward my mother that he kept the wind from blowing too hard on her face.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original">That he might not beteem the winds of heaven</div>
+
+			<div class="noFear__line noFear__line--original">Visit her face too roughly.—Heaven and earth,</div>
+
+			<div class="noFear__line noFear__line--original">Must I remember? Why, she would hang on him</div>
+
+			<div class="noFear__line noFear__line--original">As if increase of appetite had grown</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">145</span> By what it fed on, and yet, within a month—</div>
+
+			<div class="noFear__line noFear__line--original">Let me not think on ’t. Frailty, thy name is woman!—</div>
+
+			<div class="noFear__line noFear__line--original">A little month, or ere those shoes were old</div>
+
+			<div class="noFear__line noFear__line--original">With which she followed my poor father’s body,</div>
+
+			<div class="noFear__line noFear__line--original">Like Niobe, all tears. Why she, even she—</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">150</span> O God, a beast that wants discourse of reason</div>
+
+			<div class="noFear__line noFear__line--original">Would have mourned longer!—married with my uncle,</div>
+
+			<div class="noFear__line noFear__line--original">My father’s brother, but no more like my father</div>
+
+			<div class="noFear__line noFear__line--original">Than I to Hercules. Within a month,</div>
+
+			<div class="noFear__line noFear__line--original">Ere yet the salt of most unrighteous tears</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">155</span> Had left the flushing in her gallèd eyes,</div>
+
+			<div class="noFear__line noFear__line--original">She married. O most wicked speed, to post</div>
+
+			<div class="noFear__line noFear__line--original">With such dexterity to incestuous sheets!</div>
+
+			<div class="noFear__line noFear__line--original">It is not nor it cannot come to good,</div>
+
+			<div class="noFear__line noFear__line--original">But break, my heart, for I must hold my tongue.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">Oh God, do I have to remember that? She would hang on to him, and the more she was with him the more she wanted to be with him; she couldn’t get enough of him. Yet even so, within a month of my father’s death (I don’t even want to think about it. Oh women! You are so weak!), even before she had broken in the shoes she wore to his funeral, crying like crazy—even an animal would have mourned its mate longer than she did!—there she was marrying my uncle, my father’s brother, who’s about as much like my father as I’m like Hercules. Less than a month after my father’s death, even before the tears on her cheeks had dried, she remarried. Oh, so quick to jump into a bed of incest! That’s not good, and no good can come of it either. But my heart must break in silence, since I can’t mention my feelings aloud.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Enter <span class="noFear__speaker">HORATIO </span>, <span class="noFear__speaker">MARCELLUS </span>, and <span class="noFear__speaker">BARNARDO </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">HORATIO </span>, <span class="noFear__speaker">MARCELLUS </span>, and <span class="noFear__speaker">BARNARDO </span> enter.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">160</span> Hail to your lordship.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Hello, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">I am glad to see you well.—</div>
+
+			<div class="noFear__line noFear__line--original">Horatio? Or I do forget myself?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Nice to see you again, Horatio—that is your name, right?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">The same, my lord, and your poor servant ever.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">That’s me, sir. Still your respectful servant.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Sir, my good friend, I’ll change that name with you.</div>
+
+			<div class="noFear__line noFear__line--original">And what make you from Wittenberg, Horatio?—</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">165</span> Marcellus!</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Not my servant, but my friend. I’ll change that name for you. But what are you doing so far from Wittenberg, Horatio? —Oh, Marcellus?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">MARCELLUS</p>
+
+			<div class="noFear__line noFear__line--original">My good lord.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">MARCELLUS</p>
+
+			<div class="noFear__line noFear__line--modern">Hello, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original"><i>(to</i> MARCELLUS<i>)</i> I am very glad to see you.—<i>(to</i> BARNARDO<i>)</i> Good even, sir.</div>
+
+			<div class="noFear__line noFear__line--original"><i>(to</i> HORATIO<i>)</i> —But what, in faith, make you from Wittenberg?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern"><i>(to</i> MARCELLUS<i>)</i> So nice to see you.—<i>(to</i> BARNARDO<i>)</i> Hello, sir.<i>(to</i> HORATIO<i>)</i>—But what are you doing away from Wittenberg, Horatio?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">A truant disposition, good my lord.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">I felt like skipping school, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">I would not hear your enemy say so,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">170</span> Nor shall you do mine ear that violence,</div>
+
+			<div class="noFear__line noFear__line--original">To make it truster of your own report</div>
+
+			<div class="noFear__line noFear__line--original">Against yourself. I know you are no truant.</div>
+
+			<div class="noFear__line noFear__line--original">But what is your affair in Elsinore?</div>
+
+			<div class="noFear__line noFear__line--original">We’ll teach you to drink deep ere you depart.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">I wouldn’t allow your enemies to say that, and I won’t believe it from you. I know you’d never skip school. What are you doing here in Elsinore? I’ll teach you to drink hard by the time you leave.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">175</span> My lord, I came to see your father’s funeral.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Sir, we came to see your father’s funeral.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">I pray thee, do not mock me, fellow student.</div>
+
+			<div class="noFear__line noFear__line--original">I think it was to see my mother’s wedding.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Please, don’t make fun of me. I think you came to see my mother’s wedding instead.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Indeed, my lord, it followed hard upon.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Well, sir, it’s true it came soon after.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Thrift, thrift, Horatio! The funeral baked meats</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">180</span> Did coldly furnish forth the marriage tables.</div>
+
+			<div class="noFear__line noFear__line--original">Would I had met my dearest foe in heaven</div>
+
+			<div class="noFear__line noFear__line--original">Or ever I had seen that day, Horatio.</div>
+
+			<div class="noFear__line noFear__line--original">My father—methinks I see my father.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">It was all about saving a few bucks, Horatio. The leftovers from the funeral dinner made a convenient wedding banquet. Oh, I’d rather have met my fiercest enemy in heaven, Horatio, than have lived through that terrible day! My father—I think I see my father.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Where, my lord?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Where, sir?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">In my mind’s eye, Horatio.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">In my imagination, Horatio.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">185</span> I saw him once. He was a goodly king.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">I saw him once. He was an admirable king.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">He was a man. Take him for all in all.</div>
+
+			<div class="noFear__line noFear__line--original">I shall not look upon his like again.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">He was a great human being. He was perfect in everything. I’ll never see the likes of him again.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">My lord, I think I saw him yesternight.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Sir, I think I saw him last night.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Saw who?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Saw who?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">190</span> My lord, the king your father.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Your father, sir. The dead king.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">The king my father?!</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">The king my father?!</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Season your admiration for a while</div>
+
+			<div class="noFear__line noFear__line--original">With an attent ear, till I may deliver,</div>
+
+			<div class="noFear__line noFear__line--original">Upon the witness of these gentlemen,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">195</span> This marvel to you.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Don’t get too excited yet, sir. Just listen carefully while I tell you the amazing thing I saw, with these gentlemen as witnesses.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">For God’s love, let me hear.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">For God’s sake, let me hear it.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Two nights together had these gentlemen,</div>
+
+			<div class="noFear__line noFear__line--original">Marcellus and Barnardo, on their watch,</div>
+
+			<div class="noFear__line noFear__line--original">In the dead waste and middle of the night,</div>
+
+			<div class="noFear__line noFear__line--original">Been thus encountered: a figure like your father,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">200</span> Armed at point exactly, cap-à-pie,</div>
+
+			<div class="noFear__line noFear__line--original">Appears before them and with solemn march</div>
+
+			<div class="noFear__line noFear__line--original">Goes slow and stately by them. Thrice he walked</div>
+
+			<div class="noFear__line noFear__line--original">By their oppressed and fear-surprisèd eyes</div>
+
+			<div class="noFear__line noFear__line--original">Within his truncheon’s length, whilst they, distilled</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">205</span> Almost to jelly with the act of fear,</div>
+
+			<div class="noFear__line noFear__line--original">Stand dumb and speak not to him. This to me</div>
+
+			<div class="noFear__line noFear__line--original">In dreadful secrecy impart they did,</div>
+
+			<div class="noFear__line noFear__line--original">And I with them the third night kept the watch,</div>
+
+			<div class="noFear__line noFear__line--original">Where—as they had delivered, both in time,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">210</span> Form of the thing, each word made true and good—</div>
+
+			<div class="noFear__line noFear__line--original">The apparition comes. I knew your father.</div>
+
+			<div class="noFear__line noFear__line--original">These hands are not more like.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">After midnight, for two nights running, these two guards, Marcellus and Barnardo, saw a figure that looked very much like your father, in full armor from head to toe. It just appeared before them and marched past them with slow dignity three times, a staff’s distance from their amazed eyes, while they turned, quaking with fear and too shocked to speak. They told me all about this, so on the third night I agreed to come stand guard with them, to see for myself. It happened again, just as they had described. I knew your father. This ghost looked as much like him as my two hands are like each other.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">But where was this?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">But where did this happen?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">MARCELLUS</p>
+
+			<div class="noFear__line noFear__line--original">My lord, upon the platform where we watch.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">MARCELLUS</p>
+
+			<div class="noFear__line noFear__line--modern">On the platform where we stand guard, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Did you not speak to it?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Didn’t you talk to it?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">My lord, I did,</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">215</span> But answer made it none. Yet once methought</div>
+
+			<div class="noFear__line noFear__line--original">It lifted up its head and did address</div>
+
+			<div class="noFear__line noFear__line--original">Itself to motion, like as it would speak.</div>
+
+			<div class="noFear__line noFear__line--original">But even then the morning cock crew loud,</div>
+
+			<div class="noFear__line noFear__line--original">And at the sound it shrunk in haste away</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">220</span> And vanished from our sight.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">I did, sir, but it didn’t answer me. It raised its head once as if it was about to speak, but just then the rooster started crowing, and the ghost vanished from sight.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">'Tis very strange.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">That’s very strange.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">As I do live, my honored lord, ’tis true.</div>
+
+			<div class="noFear__line noFear__line--original">And we did think it writ down in our duty</div>
+
+			<div class="noFear__line noFear__line--original">To let you know of it.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">I swear to God it’s true, sir. We thought you ought to know about it.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Indeed, indeed, sirs, but this troubles me.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">225</span> Hold you the watch tonight?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Yes, I should know, but it disturbs me. Are you on duty again tonight?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--original">We do, my lord.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--modern">Yes, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Armed, say you?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">It was armed, you say?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--original">Armed, my lord.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--modern">Armed, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">From top to toe?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">From head to toe?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--original">My lord, from head to foot.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--modern">Yes, from top to bottom, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Then saw you not his face?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">So you couldn’t see his face, then?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Oh yes, my lord. He wore his beaver up.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Oh, yes, we could, sir. He had his helmet visor up.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">What, looked he frowningly?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Was he frowning?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">A countenance more</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">230</span> In sorrow than in anger.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">He looked more sad than angry.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Pale or red?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Was he pale or flushed and red-faced?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Nay, very pale.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Very pale, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">And fixed his eyes upon you?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Did he stare at you?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Most constantly.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">The whole time.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">I would I had been there.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">I wish I’d been there.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">It would have much amazed you.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">You would have been very shocked.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">235</span> Very like. Stayed it long?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">I’m sure I would have. Did it stay a long time?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">While one with moderate haste might tell a hundred.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">About as long as it would take someone to count slowly to a hundred.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--original">Longer, longer.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--modern">No, longer than that.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">Not when I saw ’t.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">Not the time I saw it.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">His beard was grizzled, no?</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">His beard was gray, right?</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">240</span> It was, as I have seen it in his life,</div>
+
+			<div class="noFear__line noFear__line--original">A sable silvered.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">It was just like in real life, dark brown with silver whiskers in it.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">I will watch tonight. Perchance</div>
+
+			<div class="noFear__line noFear__line--original">'Twill walk again.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">I’ll stand guard with you tonight. Maybe it’ll come again.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--original">I warrant it will.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO</p>
+
+			<div class="noFear__line noFear__line--modern">I bet it will.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">If it assume my noble father’s person,</div>
+
+			<div class="noFear__line noFear__line--original">I’ll speak to it, though Hell itself should gape</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">245</span> And bid me hold my peace. I pray you all,</div>
+
+			<div class="noFear__line noFear__line--original">If you have hitherto concealed this sight,</div>
+
+			<div class="noFear__line noFear__line--original">Let it be tenable in your silence still.</div>
+
+			<div class="noFear__line noFear__line--original">And whatsoever else shall hap tonight,</div>
+
+			<div class="noFear__line noFear__line--original">Give it an understanding, but no tongue.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">250</span> I will requite your loves. So fare you well.</div>
+
+			<div class="noFear__line noFear__line--original">Upon the platform, ’twixt eleven and twelve,</div>
+
+			<div class="noFear__line noFear__line--original">I’ll visit you.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">If it looks like my good father, I’ll speak to it, even if Hell itself opens up and tells me to be quiet. I ask you, if you’ve kept this a secret, keep doing so. Whatever happens tonight, don’t talk about it. I’ll return the favor. So good-bye for now. I’ll see you on the guards' platform between eleven and twelve tonight.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HORATIO, MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--original">Our duty to your honor.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HORATIO, MARCELLUS, BARNARDO</p>
+
+			<div class="noFear__line noFear__line--modern">We’ll do our duty to you, sir.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--original">Your loves, as mine to you. Farewell.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<p class="noFear__speaker">HAMLET</p>
+
+			<div class="noFear__line noFear__line--modern">Give me your love instead, as I give you mine. Good-bye.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Exeunt all but <span class="noFear__speaker">HAMLET </span></div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern">Everyone except <span class="noFear__speaker">HAMLET </span> exits.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__line noFear__line--original">My father’s spirit in arms. All is not well.</div>
+
+			<div class="noFear__line noFear__line--original noFear__line--hasLineNumber"><span class="noFear__number">255</span> I doubt some foul play. Would the night were come!</div>
+
+			<div class="noFear__line noFear__line--original">Till then sit still, my soul. Foul deeds will rise,</div>
+
+			<div class="noFear__line noFear__line--original">Though all the earth o'erwhelm them, to men’s eyes.</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__line noFear__line--modern">My father’s ghost—armed! Something’s wrong. I suspect some foul play. I wish the night were here already! Until then, I have to remain calm. Bad deeds will be revealed, no matter how people try to hide them.</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="noFear__cell noFear__cell--original">
+			<div class="noFear__stage noFear__stage--original">Exit</div>
+			</td>
+			<td class="noFear__cell noFear__cell--modern">
+			<div class="noFear__stage noFear__stage--modern"><span class="noFear__speaker">HAMLET </span> exits.</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+            </div>
+        </div>
+        <!-- for mobile view -->
+        <div class="noFear-comparison-responsive ">
+            <script>
+                let noFearComparisonMobileData = document.querySelector(".noFear-comparison-responsive");
+                if (!((window.location.href.indexOf("act-1-scene-1") > -1) || (window.location.href.indexOf("act-1-prologue")  > -1 ))) {
+                    if (noFearComparisonMobileData) {
+                        if (!(isSubscribedUser)) {
+                            noFearComparisonMobileData.classList.add('modernTxtHiddenTab');
+                        } else {
+                            noFearComparisonMobileData.classList.remove('modernTxtHiddenTab');
+                        }
+                    }
+                }
+            </script>
+            <div class="nofear__tabbed" data-step="sampleData" data-tabset="nofear-tab-section">
+                <nav class="nofear__tabbed__tabs" role="tablist" data-tablist="nofear-tab-section">
+                    <a class="nofear__tabbed__tabs__tab nofear__tabbed__tabs__original__tab active-tab" role="tab" id="original__tab" href="#tabSection1" aria-selected="true" data-tab="nofear-tab-section">ORIGINAL TEXT</a>
+                    <a class="nofear__tabbed__tabs__tab nofear__tabbed__tabs__modern__tab" role="tab" id="modern__tab" href="#tabSection2 " tabindex="-1" data-tab="nofear-tab-section">MODERN TEXT</a>
+                </nav>
+                <section class="nofear__tabbed__content nofear__tabbed__original__content" role="tabpanel" id="tabSection1" aria-labelledby="tab1" tabindex="-1" data-tabpanel="nofear-tab-section">
+                    <span class="nofear-original-text"></span>
+                </section>
+                <section class="nofear__tabbed__content nofear__tabbed__modern__content" role="tabpanel" id="tabSection2" aria-labelledby="tab2" tabindex="-1" data-tabpanel="nofear-tab-section" hidden="true">
+                    <span class="nofear-modern-text"></span>
+                </section>
+            </div>
+        </div>  
+    
